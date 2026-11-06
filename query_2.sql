@@ -23,7 +23,7 @@ INNER JOIN skills_dim on
 order by 
     skill_count desc
 limit 5
-
+/*
 [
   {
     "skills": "sql",
@@ -46,3 +46,4 @@ limit 5
     "skill_count": "546"
   }
 ]
+*/
