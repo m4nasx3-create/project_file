@@ -1,6 +1,6 @@
 /*
 Question: what are the most optimal skills to learn ( high in demand and high paying).
-- identify the salaries in high demand and with high average salary for Business analyst roles.
+- identify the skills in high demand and with high average salary for Business analyst roles.
 - concentrate on remote positions with specified salaries.(optional)
 - target the skills that offer job security(high demand) and financial benefits(high salary).
 offering strategic insights in career development in Business analytics roles. 

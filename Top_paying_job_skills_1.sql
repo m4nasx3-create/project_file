@@ -15,7 +15,7 @@ with top_paying_jobs as (
     from job_postings_fact
     LEFT JOIN company_dim ON company_dim.company_id = job_postings_fact.company_id
     WHERE
-    job_title_short = 'Data Analyst' AND
+    job_title_short = 'Business Analyst' AND
     job_location like 'Anywhere' AND
     salary_year_avg is not NULL
     ORDER BY

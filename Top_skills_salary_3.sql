@@ -23,7 +23,7 @@ GROUP BY
     skills
 order by 
     avg_salary desc
-limit 25
+limit 10
 
 /*
 Here is the breakdown of the highest-paying Business Analyst skills in 3 key trends based on your query results:
