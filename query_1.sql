@@ -1,3 +1,11 @@
+/* 
+Question - identify the top highest paying jobs for business analyst.
+- identify the top 10 highest paying business analyst jobs that are available remotely.
+- focus on job posting with specified salary
+- it will help to understand which high paying job require certain skills,
+ which will help job seekers to understand which skills to develop that align with top salaries.
+*/
+
 with top_paying_jobs as (
     SELECT
     job_id,
@@ -7,7 +15,7 @@ with top_paying_jobs as (
     from job_postings_fact
     LEFT JOIN company_dim ON company_dim.company_id = job_postings_fact.company_id
     WHERE
-    job_title_short = 'Business Analyst' AND
+    job_title_short = 'Data Analyst' AND
     job_location like 'Anywhere' AND
     salary_year_avg is not NULL
     ORDER BY
