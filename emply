@@ -1,0 +1,4 @@
+select
+count(job_id)
+from job_postings_fact
+where 
